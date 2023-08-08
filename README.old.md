@@ -33,7 +33,7 @@ Bu projede, takım üyelerini takip eden bir uygulama ayağa kaldıracaksın ve 
 
 - [ ] Bir "Form.js" dosyası oluşturun ve form işaretçinizi oluşturun.
 - [ ] `isim`, `email` ve `rol` gibi inputlar oluşturun (backend engineer, frontend engineer, tasarımcı, vb. Hayalgücünüzü kullanın).
-- [ ] Formun _state_ ini düzenlemekten hangi bileşenin sorumlu olduğuna karar vermeniz gerekir. (`Form` un kendisi, ya da parentı `App`). Her yaklaşımın avantajları ve dezavantajları vardır.
+- [?? ] Formun _state_ ini düzenlemekten hangi bileşenin sorumlu olduğuna karar vermeniz gerekir. (`Form` un kendisi, ya da parentı `App`). Her yaklaşımın avantajları ve dezavantajları vardır.
 - [ ] `App` içinde `Form` bileşeninizi render edin. `App` bileşeni, `Form` un işini yapması için gereken tüm callbackleri proplar aracılığıyla iletmelidir. (submit(gönder) e basıldığında takım üyeleri listesine yeni üyeler eklenecektir).
 
 Şimdi MVP'yi tamamladığınız! Aşağıdaki esnek görevlere devam edin. Öncelikle üyeleri düzenleme özelliği ekleyin. Bu çok karmaşık bir süreç olduğu için, bu konuda size yardımcı olacak adımlar aşağıda belirtilmiştir.
