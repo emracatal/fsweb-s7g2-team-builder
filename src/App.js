@@ -1,7 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [memberList, setMemberList] = useState(["ali", "veli", "ayşe"]);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        {memberList.map((uye) => (
+          <p>{uye}</p>
+        ))}
       </header>
     </div>
   );
