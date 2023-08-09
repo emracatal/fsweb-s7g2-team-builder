@@ -12,6 +12,10 @@ const initialData = [
 function App() {
   const [memberList, setMemberList] = useState(initialData);
 
+  function addMember(newMember) {
+    const newMemberList = [...memberList, newMember];
+    setMemberList(newMemberList);
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -21,7 +25,7 @@ function App() {
             {uye.name} - {uye.role} - {uye.email}
           </p>
         ))}
-        <NewMember setMemberList={setMemberList} initialData={initialData} />
+        <NewMember setMemberList={addMember} initialData={initialData} />
       </header>
     </div>
   );
